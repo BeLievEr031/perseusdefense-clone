@@ -1,8 +1,9 @@
+import Hero from "./sections/Hero"
 
 function App() {
   return (
-    <div>
-      <div className="text-2xl font-roboto">Where</div>
+    <div className="bg-black p-2">
+      <Hero />
     </div>
   )
 }
