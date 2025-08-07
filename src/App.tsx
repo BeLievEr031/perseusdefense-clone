@@ -1,4 +1,5 @@
 import Divider from "./components/Divider"
+import Footer from "./sections/Footer"
 import Hero from "./sections/Hero"
 import MissionStatement from "./sections/MissionStatement"
 import Progress from "./sections/Progress"
@@ -16,6 +17,8 @@ function App() {
       <Progress />
       <Testing />
       <Teams />
+      <Divider />
+      <Footer />
     </div>
   )
 }
