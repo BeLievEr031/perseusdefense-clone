@@ -9,7 +9,7 @@ import Button from "../components/Button";
 const Hero = () => {
     return (
         <section
-            className="relative px-5 md:px-40 pt-5 pb-10 w-full bg-black text-white overflow-hidden md:bg-[url('/path-to-img.jpg')] bg-cover bg-center desktop-bg"
+            className="relative px-5 md:px-40 pt-5 pb-10 w-full bg-black text-white overflow-hidden desktop-bg"
         >
             {/* Top Right Join Button */}
             <div className="flex items-center justify-between pt-4 gap-4 md:gap-0">
