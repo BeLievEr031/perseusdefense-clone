@@ -3,6 +3,7 @@ import Hero from "./sections/Hero"
 import MissionStatement from "./sections/MissionStatement"
 import Progress from "./sections/Progress"
 import Solution from "./sections/Solution"
+import Testing from "./sections/Testing"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Solution />
       <Divider />
       <Progress />
+      <Testing />
     </div>
   )
 }
