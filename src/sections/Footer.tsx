@@ -25,7 +25,7 @@ function Footer() {
                 <div className="flex justify-center md:block">
                     <img src={LogoImg} alt="Perseus Defense" className="h-6" />
                 </div>
-                <p className="text-white text-center md:text-left pt-4 md:pt-0">Contact us:founders@perseusdefense.com</p>
+                <p className="text-white text-center md:text-left pt-4 md:pt-0">Contact us:jason@perseusdefense.tech</p>
             </div>
         </section>
     )
