@@ -1,3 +1,4 @@
+import Divider from "./components/Divider"
 import Hero from "./sections/Hero"
 import MissionStatement from "./sections/MissionStatement"
 import Solution from "./sections/Solution"
@@ -8,6 +9,7 @@ function App() {
       <Hero />
       <MissionStatement />
       <Solution />
+      <Divider />
     </div>
   )
 }
