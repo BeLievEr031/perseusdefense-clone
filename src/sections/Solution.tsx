@@ -15,7 +15,7 @@ function Solution() {
             <p className="text-[#ffffff]/50 pt-10 pb-15 w-full md:w-1/2 text-xl">
                 We are building the best in class affordable and guided micro-missile pods for countering drones.
             </p>
-            <div className="md:grid md:grid-cols-[2fr_1fr] gap-4 overflow-hidden space-y-10 md:space-y-0">
+            <div className="md:grid md:grid-cols-[2fr_1fr] gap-4 overflow-hidden space-y-2 md:space-y-0">
                 <div className="md:grid md:grid-rows-[2fr_1fr] gap-2">
                     <div className="bg-[#0a0a0a] overflow-hidden relative text-[#ffffff]/80">
                         <div className="absolute top-5 left-5 md:top-10 md:left-10 w-[210px]">
@@ -28,7 +28,7 @@ function Solution() {
                         </div>
                         <img src={LaunchingImg} alt="" className="w-[80%] translate-x-[30%] translate-y-10" />
                     </div>
-                    <div className="md:grid md:grid-cols-2 gap-3 pt-3 space-y-10 md:space-y-0">
+                    <div className="md:grid md:grid-cols-2 gap-3 pt-3 space-y-2 md:space-y-0">
                         <div className="bg-[#0a0a0a] overflow-hidden relative text-[#ffffff]/80">
                             <img src={DroneImg} alt="" className="h-[240px] md:inline w-full object-cover scale-150" />
                             <div className="absolute top-5 left-5 md:top-10 md:left-10 w-[210px]">
@@ -53,7 +53,7 @@ function Solution() {
                         </div>
                     </div>
                 </div>
-                <div className="md:grid md:grid-rows-[1fr_2fr] gap-2 space-y-10 md:space-y-0">
+                <div className="md:grid md:grid-rows-[1fr_2fr] gap-2 space-y-2 md:space-y-0">
                     <div className="bg-[#0a0a0a] overflow-hidden relative text-[#ffffff]/80">
                         <img src={CrossImg} alt="" className="h-[240px] md:inline w-full object-cover scale-150" />
                         <div className="absolute top-5 left-5 md:top-10 md:left-10 w-[210px]">
