@@ -1,6 +1,7 @@
 import Divider from "./components/Divider"
 import Hero from "./sections/Hero"
 import MissionStatement from "./sections/MissionStatement"
+import Progress from "./sections/Progress"
 import Solution from "./sections/Solution"
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <MissionStatement />
       <Solution />
       <Divider />
+      <Progress />
     </div>
   )
 }
